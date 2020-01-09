@@ -15,6 +15,7 @@ http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
 	<persistence-unit name="test">
 
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<jta-data-source>java:jboss/datasources/teste-ds</jta-data-source>
 
 		<properties>
 			<property name="hibernate.connection.driver_class"
